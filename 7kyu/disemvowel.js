@@ -15,5 +15,5 @@ function disemvowel(str) {
         if ("aeiou".includes(str[i].toLowerCase())) continue;
         newStr += str[i];
     }
-    return newStr;
+    return newStr
 }
