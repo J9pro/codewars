@@ -10,10 +10,14 @@ function isValidWalk(walk) {
 
     for (var i = 0; i < walk.length; i++) {
         switch (walk[i]) {
-            case 'n': dy--; break
-            case 's': dy++; break
-            case 'w': dx--; break
-            case 'e': dx++; break
+            case 'n': dy--;
+                break
+            case 's': dy++;
+                break
+            case 'w': dx--;
+                break
+            case 'e': dx++;
+                break
         }
     }
 
